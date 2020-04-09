@@ -1,0 +1,64 @@
+[Thu Apr 09 17:47:10.620343 2020] [mpm_event:notice] [pid 14115:tid 140211803118528] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 mod_wsgi/4.7.1 Python/3.7 configured -- resuming normal operations
+[Thu Apr 09 17:47:10.620413 2020] [core:notice] [pid 14115:tid 140211803118528] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 09 17:47:58.390096 2020] [mpm_event:notice] [pid 14115:tid 140211803118528] AH00491: caught SIGTERM, shutting down
+[Thu Apr 09 17:47:58.526214 2020] [mpm_event:notice] [pid 6031:tid 139797067955136] AH00489: Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 mod_wsgi/4.7.1 Python/3.7 configured -- resuming normal operations
+[Thu Apr 09 17:47:58.526392 2020] [core:notice] [pid 6031:tid 139797067955136] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Apr 09 17:48:30.132674 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822] mod_wsgi (pid=6034, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:48:30.132883 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822] mod_wsgi (pid=6034): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:48:30.133116 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822]   File "/home/pfcf/python/djtest/wsgi.py", line 14
+[Thu Apr 09 17:48:30.133156 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822]     from os,path import join,diname,abspath
+[Thu Apr 09 17:48:30.133201 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822]            ^
+[Thu Apr 09 17:48:30.133232 2020] [wsgi:error] [pid 6034:tid 139796911245056] [client 127.0.0.1:59822] SyntaxError: invalid syntax
+[Thu Apr 09 17:48:30.521124 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824] mod_wsgi (pid=6033, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:48:30.521232 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824] mod_wsgi (pid=6033): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:48:30.521360 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824]   File "/home/pfcf/python/djtest/wsgi.py", line 14
+[Thu Apr 09 17:48:30.521398 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824]     from os,path import join,diname,abspath
+[Thu Apr 09 17:48:30.521453 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824]            ^
+[Thu Apr 09 17:48:30.521508 2020] [wsgi:error] [pid 6033:tid 139796953224960] [client 127.0.0.1:59824] SyntaxError: invalid syntax
+[Thu Apr 09 17:52:17.927484 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832] mod_wsgi (pid=6033, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:17.932697 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832] mod_wsgi (pid=6033): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:17.933886 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832]   File "/home/pfcf/python/djtest/wsgi.py", line 14
+[Thu Apr 09 17:52:17.935951 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832]     from os,path import join,diname,abspath
+[Thu Apr 09 17:52:17.936222 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832]            ^
+[Thu Apr 09 17:52:17.936282 2020] [wsgi:error] [pid 6033:tid 139796944832256] [client 127.0.0.1:59832] SyntaxError: invalid syntax
+[Thu Apr 09 17:52:18.044713 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834] mod_wsgi (pid=6034, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:18.045211 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834] mod_wsgi (pid=6034): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:18.045831 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834]   File "/home/pfcf/python/djtest/wsgi.py", line 14
+[Thu Apr 09 17:52:18.045905 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834]     from os,path import join,diname,abspath
+[Thu Apr 09 17:52:18.045999 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834]            ^
+[Thu Apr 09 17:52:18.046039 2020] [wsgi:error] [pid 6034:tid 139796919645952] [client 127.0.0.1:59834] SyntaxError: invalid syntax
+[Thu Apr 09 17:52:56.821075 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836] mod_wsgi (pid=6033, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:56.823870 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836] mod_wsgi (pid=6033): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:52:56.824703 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836]   File "/home/pfcf/python/djtest/wsgi.py", line 17
+[Thu Apr 09 17:52:56.826091 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836]     PROJECT_DIR = dirname(dirname(abspath(__file.__))))
+[Thu Apr 09 17:52:56.826308 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836]                                                       ^
+[Thu Apr 09 17:52:56.826345 2020] [wsgi:error] [pid 6033:tid 139796919645952] [client 127.0.0.1:59836] SyntaxError: invalid syntax
+[Thu Apr 09 17:53:00.592028 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838] mod_wsgi (pid=6034, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:53:00.592937 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838] mod_wsgi (pid=6034): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:53:00.593790 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838]   File "/home/pfcf/python/djtest/wsgi.py", line 17
+[Thu Apr 09 17:53:00.595929 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838]     PROJECT_DIR = dirname(dirname(abspath(__file.__))))
+[Thu Apr 09 17:53:00.596124 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838]                                                       ^
+[Thu Apr 09 17:53:00.596195 2020] [wsgi:error] [pid 6034:tid 139796902844160] [client 127.0.0.1:59838] SyntaxError: invalid syntax
+[Thu Apr 09 17:54:23.876344 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840] mod_wsgi (pid=6033, process='', application='103.17.9.213|'): Failed to parse Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:54:23.878581 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840] mod_wsgi (pid=6033): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:54:23.879428 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840]   File "/home/pfcf/python/djtest/wsgi.py", line 29
+[Thu Apr 09 17:54:23.880238 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840]     from os,path import join,diname,abspath
+[Thu Apr 09 17:54:23.880399 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840]            ^
+[Thu Apr 09 17:54:23.880441 2020] [wsgi:error] [pid 6033:tid 139796902844160] [client 127.0.0.1:59840] SyntaxError: invalid syntax
+[Thu Apr 09 17:55:23.322922 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842] mod_wsgi (pid=6033): Failed to exec Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:55:23.324105 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842] mod_wsgi (pid=6033): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:55:23.324778 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842] Traceback (most recent call last):
+[Thu Apr 09 17:55:23.324953 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842]   File "/home/pfcf/python/djtest/wsgi.py", line 18, in <module>
+[Thu Apr 09 17:55:23.324986 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842]     sys.path.insert(O,PROJECT_DIR)
+[Thu Apr 09 17:55:23.325039 2020] [wsgi:error] [pid 6033:tid 139796781442816] [client 127.0.0.1:59842] NameError: name 'O' is not defined
+[Thu Apr 09 17:55:25.314722 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844] mod_wsgi (pid=6034): Failed to exec Python script file '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:55:25.317006 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844] mod_wsgi (pid=6034): Exception occurred processing WSGI script '/home/pfcf/python/djtest/wsgi.py'.
+[Thu Apr 09 17:55:25.317672 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844] Traceback (most recent call last):
+[Thu Apr 09 17:55:25.317825 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844]   File "/home/pfcf/python/djtest/wsgi.py", line 18, in <module>
+[Thu Apr 09 17:55:25.317874 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844]     sys.path.insert(O,PROJECT_DIR)
+[Thu Apr 09 17:55:25.317919 2020] [wsgi:error] [pid 6034:tid 139796928046848] [client 127.0.0.1:59844] NameError: name 'O' is not defined
+[Thu Apr 09 09:56:40.302874 2020] [wsgi:error] [pid 6033:tid 139796936439552] [client 49.216.40.137:9135] Not Found: /favicon.ico, referer: http://103.17.9.213/
+[Thu Apr 09 18:08:25.762859 2020] [mpm_event:notice] [pid 6031:tid 139797067955136] AH00493: SIGUSR1 received.  Doing graceful restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 103.17.9.213. Set the 'ServerName' directive globally to suppress this message
+[Thu Apr 09 10:28:39.117431 2020] [wsgi:error] [pid 6896:tid 139772085380864] [client 64.233.172.247:52656] Not Found: /favicon.ico
+[Thu Apr 09 10:28:39.431634 2020] [wsgi:error] [pid 6896:tid 139772076988160] [client 64.233.172.243:61699] Not Found: /favicon.ico
