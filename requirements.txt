@@ -1,4 +1,4 @@
-pip ==19.3.1
+pip ==21.1
 amqp==2.5.1
 billiard==3.6.1.0
 celery==4.3.0
